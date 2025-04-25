@@ -7,75 +7,86 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #0d1b2a, #1b263b);
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      font-family: 'Comic Sans MS', 'Arial', sans-serif;
+      background-color: #00FFFF;
+      color: #000080;
       text-align: center;
-      min-height: 100vh;
+      font-size: 16px;
     }
 
     header {
-      width: 100%;
-      background-color: #0d1b2a;
-      padding: 1rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+      background-color: #FF0000;
+      padding: 20px;
+      border-bottom: 5px solid #0000FF;
     }
 
     header h1 {
-      font-size: 2rem;
-      color: #fca311;
+      font-size: 2.5rem;
+      color: #FFFF00;
       margin: 0;
-      letter-spacing: 1px;
+      letter-spacing: 2px;
     }
 
     .banner {
       width: 100%;
-      max-width: 900px;
-      margin-top: 2rem;
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+      max-width: 800px;
+      margin: 20px auto;
+      border: 5px solid #000080;
     }
 
     .content {
-      padding: 2rem;
-      max-width: 800px;
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #FFFFFF;
+      border: 3px solid #FF00FF;
     }
 
     .content h2, .content h3 {
-      color: #fca311;
-      margin-top: 2rem;
+      color: #FF0000;
+      margin-top: 20px;
     }
 
     .content p {
       font-size: 1.1rem;
-      line-height: 1.6;
-      text-align: left;
+      line-height: 1.5;
+      margin-bottom: 15px;
     }
 
     .era-img {
       width: 100%;
-      max-width: 800px;
-      margin: 1rem 0;
-      border-radius: 8px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+      max-width: 700px;
+      margin: 10px auto;
+      border: 3px dashed #FF00FF;
+      padding: 5px;
     }
 
     footer {
-      margin-top: auto;
-      padding: 1rem;
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #FF0000;
+      color: #FFFF00;
       font-size: 0.9rem;
-      color: #aaa;
     }
 
     a {
-      color: #fca311;
+      color: #FFFF00;
       text-decoration: none;
+      font-weight: bold;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    .disclaimer {
+      font-size: 0.9rem;
+      color: #000080;
+      margin-top: 2em;
+      background-color: #FFFF00;
+      padding: 10px;
+      border: 2px solid #FF0000;
     }
   </style>
 </head>
@@ -107,28 +118,28 @@
     <h3>Chapter I: Origins in the Embered East (circa 200 BCE)</h3>
     <img src="circa_200.png" alt="BFS Ancient Era" class="era-img" />
     <p>
-      The seeds of the Bold Flavor Squad (BFS) were sown not in a pot of chili, but in the windswept dunes of the ancient spice routes... From his teachings, and the oral flavor scrolls passed between generations, the philosophy of the BFS began to simmer.
+      The seeds of the Bold Flavor Squad (BFS) were sown not in a pot of chili, but in the windswept dunes of the ancient spice routes...
     </p>
 
     <h3>Chapter II: The Chili Crusades and the Western Expansion (12th–16th centuries)</h3>
     <img src="crusades.png" alt="BFS Medieval Era" class="era-img" />
     <p>
-      When chilies first arrived from the New World, the world changed. The rediscovery of capsicum annuum transformed ancient recipes... sharing spice techniques and secretly influencing royal kitchens across Europe.
+      When chilies first arrived from the New World, the world changed. The rediscovery of capsicum annuum transformed ancient recipes...
     </p>
 
     <h3>Chapter III: The Golden Era of Competitive Chili (1950s–1990s)</h3>
     <img src="1950s.png" alt="BFS 1950s Era" class="era-img" />
     <p>
-      Fast-forward to the 20th century. In the post-war boom of the American Southwest, chili competitions flourished like desert flowers after rain... Their flagship dish, The Crimson Reckoning, was whispered about in reverent tones.
+      Fast-forward to the 20th century. In the post-war boom of the American Southwest, chili competitions flourished like desert flowers...
     </p>
 
     <h3>Chapter IV: The Modern Enigma (2000–Present)</h3>
     <img src="modern_enigma.jpg" alt="BFS Modern Team" class="era-img" />
     <p>
-      Though the squad has continued to produce the most flavorful, complex, and soul-stirring chili, they have not secured a first-place win. Theories abound... Yet, the Squad remains undeterred, competing not for trophies, but for the soul of chili itself.
+      Though the squad has continued to produce the most flavorful, complex, and soul-stirring chili, they have not secured a first-place win...
     </p>
 
-    <p style="text-align:center; font-size: 1.2rem; margin-top:2rem;">
+    <p style="font-size: 1.2rem; margin-top: 2rem;">
       🌶️🔥 Long live the Bold Flavor Squad! 🔥🌶️
     </p>
 
@@ -138,15 +149,16 @@
     <img src="iowa_jima.png" alt="BFS Iwo Jima Flag Raising" class="era-img" />
     <img src="jfk.png" alt="We Choose to Eat BFS Chili - JFK" class="era-img" />
   </div>
-</body>
-    <footer>
+
+  <footer>
     &copy; 2025 Bold Flavor Squad | <a href="https://github.com/zientekb1/Bold_Flavor_Squad.github.io">GitHub Repo</a>
   </footer>
 
-  <p style="text-align: center; font-size: 0.9rem; color: #777; margin-top: 2em;">
+  <p class="disclaimer">
     🚀🌶️ Disclaimer: This site is a loving parody created for the NASA Backup Flight Software Chili Cook-Off.  
     We are not officially endorsed by NASA (but we are officially endorsed by our stomachs).  
     Side effects of reading may include excessive hunger, spontaneous sweating, and extreme chili-based confidence. 🌶️🔥
   </p>
 
+</body>
 </html>
