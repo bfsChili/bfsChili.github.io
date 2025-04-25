@@ -5,6 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bold Flavor Squad | NASA Chili Cook-Off</title>
   <style>
+    /* Glowing Text Effect */
+    @keyframes glowingText {
+      0% { text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500, 0 0 15px #ff4500, 0 0 20px #ff4500, 0 0 25px #ff4500, 0 0 30px #ff4500; color: #fff; }
+      50% { text-shadow: 0 0 10px #ff4500, 0 0 20px #ff4500, 0 0 30px #ff4500, 0 0 40px #ff4500, 0 0 50px #ff4500, 0 0 60px #ff4500; color: #ffff00; }
+      100% { text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500, 0 0 15px #ff4500, 0 0 20px #ff4500, 0 0 25px #ff4500, 0 0 30px #ff4500; color: #fff; }
+    }
+
+    .glowing-text {
+      animation: glowingText 1.5s ease-in-out infinite;
+    }
+
+    /* Floating Text Effect */
+    @keyframes floatingText {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    .floating-text {
+      animation: floatingText 3s ease-in-out infinite;
+    }
+
     body {
       margin: 0;
       font-family: 'Comic Sans MS', 'Arial', sans-serif;
@@ -93,13 +115,13 @@
 <body>
 
   <header>
-    <h1>🚀 The Bold Flavor Squad</h1>
+    <h1 class="glowing-text">🚀 The Bold Flavor Squad</h1>
   </header>
 
   <img src="BoldFlavorBanner.png" alt="Bold Flavor Squad Banner" class="banner" />
 
   <div class="content">
-    <h2>NASA's Backup Flight Software Chili Cook-Off</h2>
+    <h2 class="floating-text">NASA's Backup Flight Software Chili Cook-Off</h2>
     <p>
       Welcome to the official home of the Bold Flavor Squad — NASA’s spiciest team in the 2025 Chili Cook-Off!
     </p>
